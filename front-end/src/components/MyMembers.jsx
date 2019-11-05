@@ -68,7 +68,8 @@ const MyMembersStructure = ({ className, history }) => {
   };
 
   const deleteAccount = userid => {
-    dispatch(deleteUser(token, userid, false)).then(result => {
+    const loggedUser = user.id === userid;
+    dispatch(deleteUser(token, userid, loggedUser)).then(result => {
       if (result.status === 'success') {
         // console.log('success');
         setSelectedUser(undefined);

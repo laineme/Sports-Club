@@ -61,12 +61,6 @@ api.post('/api/users', [check('email').isEmail().withMessage("Enter a valid emai
   check('password').isLength({
     min: 5
   }).withMessage("Password must be 5 characters or more"),
-  check('firstname').isLength({
-    min: 1
-  }).withMessage("First name must be 1 characters or more"),
-  check('lastname').isLength({
-    min: 1
-  }).withMessage("Last name must be 1 characters or more"),
   function(req, res, next) {
 
     const errors = validationResult(req)

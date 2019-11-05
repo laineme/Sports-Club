@@ -54,11 +54,9 @@ const userSchema = mongoose.Schema({
   },
   firstname:{
     type: String,
-    required: true
   },
   lastname:{
     type: String,
-    required: true
   },
   phone:{
     type: String
@@ -100,8 +98,8 @@ let users = [
     username: 'admin',
     email: 'admin@runningisfun.com',
     password: 'admin',
-    firstname: 'Admin',
-    lastname: 'Admin',
+    firstname: '',
+    lastname: '',
     phone: '',
     fee: 'true',
     role: 0

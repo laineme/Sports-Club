@@ -87,7 +87,7 @@ const ProfileStructure = ({ className, history }) => {
               </List.Item>
               <List.Item>
                 <List.Header>name</List.Header>
-                {user.firstname} {user.lastname}
+                {user.firstname ? `${user.firstname} ${user.lastname}` : '-'}
               </List.Item>
               <List.Item>
                 <List.Header>phone</List.Header>

@@ -34,9 +34,11 @@ const MainStructure = ({ className, activeItem }) => {
         <Menu.Menu position="right">
           {user && user.username ? (
             <Menu.Item
-              name={user.username}
+              active={activeItem === 'profile'}
               onClick={() => history.push('/profile')}
-            />
+            >
+              <Icon name="user" />
+            </Menu.Item>
           ) : null}
           {user ? (
             <Menu.Item
