@@ -1,0 +1,32 @@
+{
+  "name": "sports-club",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon app.js",
+    "start": "concurrently --kill-others-on-fail \"npm run serve\" \"cd front-end && npm run start\"",
+    "installFrontEnd": "cd front-end && npm install && cd .. && npm install",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix front-end && npm run build --prefix front-end",
+    "production": "cd front-end && npm run build && cd .. && npm run serve"
+  },
+  "author": "Marjaana Laine",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "concurrently": "^3.6.1",
+    "express": "^4.16.4",
+    "express-sanitizer": "^1.0.5",
+    "express-session": "^1.16.1",
+    "express-validator": "^5.3.1",
+    "helmet": "^3.21.2",
+    "install": "^0.13.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.5",
+    "mongoose-unique-validator": "^2.0.3",
+    "nodemon": "^1.19.0",
+    "npm": "^6.12.1",
+    "path": "^0.12.7"
+  }
+}

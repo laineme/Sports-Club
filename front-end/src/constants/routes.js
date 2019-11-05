@@ -1,0 +1,9 @@
+export const ROOT = '/';
+export const LOGIN = `${ROOT}login`;
+export const REGISTER = `${ROOT}register`;
+export const COURSES = `${ROOT}courses`;
+export const PROFILE = `${ROOT}profile`;
+export const MEMBERS = `${ROOT}members`;
+export const MEMBERSADD = `${ROOT}addmember`;
+export const LOGOUT = `${ROOT}logout`;
+export const SUB_ROUTE = `${ROOT}other-route-goes-here`;

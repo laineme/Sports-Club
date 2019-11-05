@@ -1,0 +1,29 @@
+{
+  "mainTitle":"News",
+  "content":[
+    {
+      "header":"1.5.2019",
+      "text": [
+        {
+          "part":"<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis reprehenderit sunt magni accusantium, necessitatibus nulla pariatur blanditiis officia laudantium facere vitae alias quo iusto exercitationem, maxime facilis porro, voluptas dolor est! Blanditiis aliquam, iusto explicabo autem, debitis a distinctio laudantium, qui dolores laboriosam quaerat suscipit dolorem dicta eum? Cumque, tenetur?</p>"
+        }
+      ]
+    },
+    {
+      "header":"15.4.2019",
+      "text": [
+        {
+          "part":"<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eos, eaque aut iusto ea reprehenderit! Harum quod earum laboriosam, unde dolorem, veritatis nemo voluptatem maxime ab iusto quibusdam facilis optio.</p>"
+        }
+      ]
+    },
+    {
+      "header":"7.1.2019",
+      "text": [
+        {
+          "part":"<p>Happy New Year 2019!</p>"
+        }
+      ]
+    }
+  ]
+}
